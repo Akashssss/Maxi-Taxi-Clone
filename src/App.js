@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Services from './services.js';
+import WhyChoose from './WhyChoose';
+import Testimonials from './Testimonials';
+import HeadCarousel from './HeadCarousel';
+import HeaderIntro from './HeaderIntro';
+import Form from './Form';
+import Footer from './Footer';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="App flex flex-col overflow-hidden items-center w-full ">
+      <div className='fixed z-20 w-[100vw]'>    <Header /></div>
+      <HeadCarousel />
+      <div className='w-[85%] '>
+        <HeaderIntro />
+        <Services />
+        <WhyChoose />
+      </div>
+      <div className=' mt-12'>
+        <Testimonials />
+      </div>
+      <Form />
+      <Footer />
     </div>
+
+
   );
 }
 

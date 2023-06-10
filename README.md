@@ -68,3 +68,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Packages Used In Project
+  Material-ui icons 
+  React-multi-carousel (npm) - create carousel
+  Avatar package (npm) - create avatar based on parameter supplied
+
+# Images 
+  from website [https://www.maxitaxiperth.com.au]
+
+# CSS framework 
+  Tailwind Css 
+
+## MY Facilitate Tasks 
+  # How achive alternate image content  in service.js
+     if width > medium size srceen                                           
+          if (index is even the flex) 
+          else flex direction is row reverse
+
+     if (width <= medium size srceen)
+          flex direction is column
+
+   # Most Sub component 
+     Btn  - (yello black button )
+     Review - review creator 
+     popup - generator
+
+   ## POP UP shown on : 
+    when summit the from booking form a pop up shown with the filled details 
+    note that pop up not attached with the contact form
+
+
+
+            
+  
